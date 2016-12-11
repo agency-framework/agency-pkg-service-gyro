@@ -41,8 +41,8 @@ gyroService.offset(x, y, z);
 
 ## Heroku App Examples
 
-> [**Horizontal-Segments**](https://agency-pkg-gyro.herokuapp.com/horizontal-segments.html)
+> [**Horizontal-Segments**](https://agency-pkg-service-gyro.herokuapp.com/horizontal-segments.html)
 
-> [**Compensating-Background Image**](https://agency-pkg-gyro.herokuapp.com/compensating-background/image.html)
+> [**Compensating-Background Image**](https://agency-pkg-service-gyro.herokuapp.com/compensating-background/image.html)
 
-> [**Compensating-Background Text**](https://agency-pkg-gyro.herokuapp.com/compensating-background/text.html)
+> [**Compensating-Background Text**](https://agency-pkg-service-gyro.herokuapp.com/compensating-background/text.html)
