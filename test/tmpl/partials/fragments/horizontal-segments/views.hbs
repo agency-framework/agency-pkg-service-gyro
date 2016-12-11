@@ -1,0 +1,21 @@
+---
+
+---
+
+<div class="partial controller" data-partial="fragments/horizontal-segments/views" data-controller="./partials/fragments/horizontalSegments/Views">
+
+    {{{mixin "elements/background/horizontal-segments" target="[data-partial='fragments/horizontal-segments/views']"}}}
+
+  <div class="list">
+
+    {{#block "views"}}
+
+      {{{mixin "fragments/horizontal-segments/view" index="0"}}}
+      {{{mixin "fragments/horizontal-segments/view" index="1"}}}
+      {{{mixin "fragments/horizontal-segments/view" index="2"}}}
+
+    {{/block}}
+
+  </div>
+
+</div>

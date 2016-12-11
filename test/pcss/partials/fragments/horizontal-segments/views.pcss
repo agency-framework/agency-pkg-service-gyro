@@ -1,0 +1,28 @@
+.partial[data-partial="fragments/horizontal-segments/views"] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: solid #cccccc;
+  border-width: 0px 1px 0px 1px;
+  >.list {
+    height: 100%;
+  }
+  * {
+    user-select: none;
+  }
+  .reset {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 10000;
+  }
+  /* docs */
+  .preview>& {
+    position: relative;
+    width: auto;
+    margin: 0rem calc(30 / 16)rem;
+    height: 30rem;
+  }
+}

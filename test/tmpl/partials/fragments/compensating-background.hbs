@@ -1,0 +1,12 @@
+---
+picture:
+  sources:
+    - { "type": "lg", "srcset": "assets/img/raster-1.jpg" }
+    - { "type": "md", "srcset": "assets/img/raster-1.jpg" }
+    - { "type": "sm", "srcset": "assets/img/raster-1.jpg" }
+    - { "type": "xs", "srcset": "assets/img/raster-1.jpg" }
+    - { "type": "default", "srcset": "assets/img/raster-1.jpg" }
+---
+<div class="partial controller" data-partial="fragments/compensating-background" data-controller="./partials/fragments/CompensatingBackground">
+  <span data-hook="content">{{#block "content"}}{{{mixin "agency-pkg-element-picture" picture}}}{{/block}}</span>
+</div>

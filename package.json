@@ -1,0 +1,43 @@
+{
+  "name": "agency-pkg-service-gyro",
+  "version": "0.0.1",
+  "description": "agency - frontend-package service-gyro",
+  "keywords": [
+    "boilerplate",
+    "package",
+    "service-gyro"
+  ],
+  "homepage": "https://github.com/agency-framework/agency-pkg-service-gyro#readme",
+  "bugs": {
+    "url": "https://github.com/agency-framework/agency-pkg-service-gyro/issues"
+  },
+  "license": "MIT",
+  "author": "Thorn Walli <lammpee@gmail.com>",
+  "contributors": [
+    {
+      "name": "Thorn Walli",
+      "email": "lammpee@gmail.com; thorn.walli@grabarzundpartner.de"
+    }
+  ],
+  "main": "default.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agency-framework/agency-pkg-service-gyro.git"
+  },
+  "engines": {
+    "node": "7.0.0"
+  },
+  "scripts": {
+    "install": "node ./install.js",
+    "heroku": "node node_modules/gulp/bin/gulp run --serverConfig=node_modules/agency-boilerplate/env/config/agency/server.json --configTasks=./env/config/agency/tasks.json --env=package-production --server=agency-server",
+    "dev": "node node_modules/gulp/bin/gulp run --serverConfig=node_modules/agency-boilerplate/env/config/agency/server.json --configTasks=env/config/agency/tasks.json --env=package-development --server=agency-server",
+    "prod": "node node_modules/gulp/bin/gulp run --serverConfig=node_modules/agency-boilerplate/env/config/agency/server.json --configTasks=env/config/agency/tasks.json --env=package-production --server=agency-server"
+  },
+  "dependencies": {
+    "webvr-polyfill": "^0.9.15",
+    "agency-pkg-base": "git+https://git@github.com/agency-framework/agency-pkg-base"
+  },
+  "devDependencies": {
+    "agency-boilerplate": "git+https://git@github.com/agency-framework/agency-boilerplate.git"
+  }
+}

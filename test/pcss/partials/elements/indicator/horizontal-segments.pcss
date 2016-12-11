@@ -1,0 +1,9 @@
+@import "../indicator.pcss";
+$border_radius: calc(4 / 16)em;
+.partial[data-partial="elements/indicator/horizontal-segments"] {
+  .bar {
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: $border_radius;
+  }
+}
