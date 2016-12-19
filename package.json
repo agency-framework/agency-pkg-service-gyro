@@ -38,6 +38,6 @@
     "agency-pkg-base": "git+https://git@github.com/agency-framework/agency-pkg-base"
   },
   "devDependencies": {
-    "agency-boilerplate": "git+https://git@github.com/agency-framework/agency-boilerplate.git"
+    "agency-boilerplate": "git+https://git@github.com/agency-framework/agency-boilerplate.git#release/v3.0"
   }
 }

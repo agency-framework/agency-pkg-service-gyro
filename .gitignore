@@ -45,3 +45,4 @@ node_modules_old
 /production
 /test/js/packages*
 /test/pcss/partials.pcss
+/test/pcss/partials.critical.pcss
